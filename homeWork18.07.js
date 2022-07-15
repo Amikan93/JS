@@ -53,3 +53,22 @@
 
 //9.
 
+// const number = prompt("Введите треёхначное число");
+// let number3 = parseInt(number)%10; 
+// let number4= number + number2;
+// let number5 = number / 10;
+// let number2 = number4 * 10;
+// let number7 = number2 + number;
+// alert(number7);
+
+
+// const number = prompt("Введите трёхзначное число");
+// let number1 = parseInt(number)%10; //3
+// let number2 = parseInt(number)%100 / 10; //2
+// alert(number2);
+
+//10.
+// const number = prompt("Введите целое число");
+// let a = number % 2 == 0;
+// alert(a);
+
