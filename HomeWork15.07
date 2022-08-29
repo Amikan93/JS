@@ -1,0 +1,216 @@
+//1. 
+// const vopros = parseInt(prompt('Введите свой возраст: ')); 
+// let age; 
+ 
+// if(vopros >= 0 && vopros < 12) 
+// age = 'Вы еще ребенок!'; 
+// else if (vopros >= 12 && vopros < 18) 
+// age = 'Вы подросток!'; 
+// else if (vopros >= 18 && vopros < 60) 
+// age = 'Вы взрослый!'; 
+// else if (vopros >= 60 ) 
+// age = 'Вы пенсионер!'; 
+// else age = 'Что-то пошло не так!'; 
+// alert (age); 
+ 
+ 
+//2. 
+ 
+// const number = parseInt(prompt('Введите число от 0 до 9: ')); 
+// let symbol; 
+ 
+// switch(number) 
+// { 
+//     case 0: 
+//     symbol = ')'; 
+//     break; 
+//     case 1: 
+//     symbol = '!'; 
+//     break; 
+//     case 2: 
+//     symbol = '@'; 
+//     break; 
+//     case 3: 
+//     symbol = '#'; 
+//     break; 
+//     case 4: 
+//     symbol = '$'; 
+//     break; 
+//     case 5: 
+//     symbol = '%'; 
+//     break; 
+//     case 6: 
+//     symbol = '^'; 
+//     break; 
+//     case 7: 
+//     symbol = '&'; 
+//     break; 
+//     case 8: 
+//     symbol = '*'; 
+//     break; 
+//     case 9: 
+//     symbol = '('; 
+//     break; 
+     
+//     default: 
+//         symbol = "Что-то пошло не так!"; 
+// } 
+ 
+// alert(symbol); 
+ 
+//3. 
+ 
+// const number = prompt('Введите трёхзначное число: '); 
+// let digit_1 = parseInt(number[0]); 
+// let digit_2 = parseInt(number[1]); 
+// let digit_3 = parseInt(number[2]); 
+ 
+
+//  if (digit_1 == digit_2  digit_2 == digit_3  digit_1 == digit_3)
+//  {
+//     alert('Есть одинаковые!');
+//  }
+//  else 
+//  {
+//     alert('Совпадений нет!');
+//  }
+
+//4.
+
+// const year = parseInt(prompt("Введите год, а мы проверим високосный он или нет!"));
+
+// if ((0 == year % 4) && (0 != year % 100) || (0 == year % 400)) {
+//     alert(year + ' Високосный год!');
+// } else {
+//     alert(year + 'Год не високосный!');
+// }
+
+ //5.
+
+// let a;
+// const number = parseInt(prompt("Введите пятиразрядное число: "));
+// let 
+
+//  let digit_1 = number[0];
+//  let digit_2 = number[1];
+//  let digit_3 = number[2];
+//  let digit_4 = number[3];
+//  let digit_5 = number[4];
+
+//6.
+
+// const eur = 0.99;
+// const uan = 37.2;
+// const azn = 1.7;
+
+// let usd = parseInt(prompt('Введите доллар'));
+// let currency = prompt("Выберите валюту обмена: eur, uan, azn: ").toLowerCase();
+// let result;
+
+// switch(currency)
+// {
+//     case "eur":
+//         result = usd*eur;
+//         currencyString = "EUR";
+//         break;
+
+//         case "uan":
+//         result = usd*uan;
+//         currencyString = "UAN";
+//         break;
+
+//         case "azn":
+//         result = usd*azn;
+//         currencyString = "AZN";
+//         break;
+// }
+
+// alert(${usd} дол в ${currencyString} = ${result});
+
+//7.
+
+// const sum = parseInt(prompt('Введите сумму покупки: '));
+
+// if(sum => 200 && sum <= 300)
+// {
+//     let tallage = 3;
+//     let result = (sum / 100 * tallage);
+//     alert('Цена со скидкой: ' + (sum-result));
+// }
+// else if (sum > 300 && sum <= 500)
+// {
+//     let tallage = 5;
+//     let result = ((sum / 100) * tallage);
+//     alert('Цена со скидкой: ' + (sum-result));
+// }
+
+// else (sum > 500)
+// {
+//     let tallage = 7;
+//     let result = ((sum / 100) * tallage);
+//     alert('Цена со скидкой: ' + (sum-result));}
+
+//8.
+
+
+//9.
+
+let result = 0;
+let ball = 0;
+result = ball;
+
+const oneQst = prompt("Столица Казахстана? Шымкент, Нур-Султан, Алматы ");
+
+switch(oneQst)
+{
+    case "Нур-Султан":
+    console.log('Это верный ответ! + 2 балла');
+    ball + 2;
+    break;
+    case "Шымкент":
+        console.log('Это неверный ответ!');
+    break;
+    case "Алматы":
+        console.log('Это неверный ответ!');
+    break;
+    default:
+        console.log('Что-то пошло не так. Попробуйте еще раз!');  
+}
+
+const twoQst = prompt("Столица России? Пермь, Казань, Москва ");
+
+switch(twoQst)
+{
+    case "Москва":
+    console.log('Это верный ответ! + 2 балла');
+    ball + 2;
+    break;
+    case "Пермь":
+        console.log('Это неверный ответ!');
+    break;
+    case "Казань":
+        console.log('Это неверный ответ!');
+    break;
+    default:
+        console.log('Что-то пошло не так. Попробуйте еще раз!');  
+}
+
+const threeQst = prompt("Столица Франции? Лион, Париж, Реймс ");
+
+switch(threeQst)
+{
+    case "Париж":
+    console.log('Это верный ответ! + 2 балла');
+    ball + 2;
+    break;
+    case "Лион":
+        console.log('Это неверный ответ!');
+    break;
+    case "Реймс":
+        console.log('Это неверный ответ!');
+    break;
+    default:
+        console.log('Что-то пошло не так. Попробуйте еще раз!');  
+}
+
+console.log('Вы набрали: ' + result + ' балла!');
